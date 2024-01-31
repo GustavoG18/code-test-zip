@@ -9,19 +9,13 @@
 </head>
 <body>
 	<div id="container">
-		<div id="search-container">
-			<input id="zipCodeInput" type="number"/>
-			<button onclick="search()">Search</button>
+		<span>🇺🇸</span>
+		<h1>Zip Code Information</h1>
+		<div class="wrapper">
+			<input id="zip-code-input" type="number" placeholder="Try with 08002" />
+			<button onclick="search()"> Search </button>
 		</div>
 		<div id="result-container" class="hide">
-			<img 
-				id="imgResult"
-				src="" 
-				alt=""
-			/>
-			<pre>
-				<code id="result"></code>
-			</pre>
 		</div>
 	</div>
 	<script src="script.js"></script>
